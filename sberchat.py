@@ -2,7 +2,7 @@ from langchain_gigachat.chat_models import GigaChat
 from langchain.schema import HumanMessage, SystemMessage
 
 giga = GigaChat(
-    credentials="MmYzNjJhMGEtYjdmOS00OTdiLWI0YzgtZDk2ZmU5NzhmYmM2OjM2ZTdjZjYyLThhOTctNDNmZi1iYjlkLTdlYjI4NjE2OGNiZQ==",
+    credentials="<GIGACHAT_TOKEN>",
     model="GigaChat-preview",
     verify_ssl_certs=False
 )
